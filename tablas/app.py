@@ -4,7 +4,7 @@ import pandas as pd
 import plotly.tools as tls
 import plotly.graph_objs as go
 from backend.granulometria import granulometria
-
+server = app.server
 app = Dash(__name__, external_stylesheets=[dbc.themes.BOOTSTRAP])
 
 def generate_granulometria_plot():
